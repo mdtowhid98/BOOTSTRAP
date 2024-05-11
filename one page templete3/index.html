@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- strat nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/towhid.jpg.jpg" alt="" height="50px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><i class="fa-solid fa-address-card"></i> about</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-taxi"></i> Service
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#service">Java</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#service">Python</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#service">C#</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contuct"> <i class="fa-solid fa-address-book"></i> Contuct</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- end nav -->
+
+  <!-- strat slide -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="images/1 (1).jpg" class="d-block w-100" alt="..." height="400px">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/2 (1).jpg" class="d-block w-100" alt="..." height="400px">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/3 (1).jpg" class="d-block w-100" alt="..." height="400px">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- end slide -->
+
+  <!-- strat about -->
+  <section id="about">
+    <div class="container">
+      <div class="text-center">
+        <h1>About</h1>
+        <hr>
+        <h3>Stay With Us</h3>
+      </div>
+      <div class="row py-3">
+        <div class="col-md-6 text-center">
+          <img src="images/b.jpg" alt="" height="300px" width="300px" class="rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, eos velit magnam in similique dicta sunt
+            sit! Cumque inventore quos asperiores, quas iste, officia dicta adipisci nisi explicabo, optio magnam!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, eos velit magnam in similique dicta sunt
+            sit! Cumque inventore quos asperiores, quas iste, officia dicta adipisci nisi explicabo, optio magnam!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, eos velit magnam in similique dicta sunt
+            sit! Cumque inventore quos asperiores, quas iste, officia dicta adipisci nisi explicabo, optio magnam!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, eos velit magnam in similique dicta sunt
+            sit! Cumque inventore quos asperiores, quas iste, officia dicta adipisci nisi explicabo, optio magnam!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about -->
+
+  <!-- strat service -->
+  <section id="service">
+    <div class="container">
+      <div class="text-center">
+        <h1>Service</h1>
+        <hr>
+        <h3>Stay With Us</h3>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <img src="images/java-logo-vector-design-commercial-brand-trademark-118452997.webp" alt="" height="250px"
+            width="250px" class="rounded-circle" class="text-center">
+
+        </div>
+        <div class="col-md-4">
+          <img src="images/png-transparent-python-javascript-logo-clojure-python-logo-blue-angle-text-thumbnail.png"
+            alt="" height="250px" width="250px" class="rounded-circle">
+
+        </div>
+        <div class="col-md-4">
+          <img src="images/C-Programming-Language.png" alt="" height="250px" width="250px" class="rounded-circle">
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end service -->
+
+  <!-- strat Portfolio -->
+  <section id="Portfolio">
+    <div class="container">
+      <div class="row py-3">
+        <div class="text-center">
+          <h1>Portfolio</h1>
+          <hr>
+          <h3>Stay With Us</h3>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/gettyimages-88866556-612x612.jpg" alt="" height="250px" width="250px" class="rounded-circle">
+          <p class="text-center">James Gosling</p>
+        </div>
+        <div class="col-md-6 py-5">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Personal life
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Education
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this
+                  being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Working place
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the space to make it look, at least at first
+                  glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Portfolio -->
+
+  <!-- strat contuct -->
+  <section id="contuct">
+    <div class="row py-3">
+      <div class="text-center">
+        <h1>Say hello</h1>
+
+        <hr>
+
+      </div>
+
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1DKCk-na7im-hH9U2agIa_wBSXeI&hl=en_US&ehbc=2E312F" width="640" height="250"></iframe>
+      </div>
+    </div>
+  </section>
+  <!-- end contuct -->
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
